@@ -1,12 +1,77 @@
-# React + Vite
+# 🧮 Simple Calculator in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and responsive calculator web app built using **React.js**. It performs basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Basic math operations: `+`, `-`, `×`, `÷`
+- Clean and minimal UI
+- Responsive design for desktop and mobile
+- Built entirely with functional components and React hooks (`useState`)
+- Live result display
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js (Functional Components + Hooks)
+- CSS (or Tailwind CSS, optional)
+- JavaScript (ES6+)
+
+## 📸 Screenshots
+
+![Calculator Screenshot](./screenshot.png) <!-- Add screenshot image if available -->
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-calculator.git
+cd react-calculator
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the app
+```bash
+npm start
+```
+The app will open at http://localhost:3000
+
+📁 Project Structure
+```bash
+    src/
+    ├── components/
+    │   └── Buttons.jsx
+    │   └── Buttons.module.css
+    │   └── Home.jsx
+    │   └── Home.module.jsx
+    ├── App.jsx
+    ├── index.js
+```
+🧠 Learning Goals
+
+    - Practice using useState for dynamic data
+
+    - Handling user events in React
+
+    - Building and styling interactive UI elements
+
+    - Breaking UI into reusable components
+
+✨ Future Improvements
+
+    - Add keyboard support
+
+    - Implement scientific calculator mode
+
+    - Add themes (dark/light)
+
+    - History log of calculations
+
+
+📄 License
+
+    - This project is open-source and free to use under the MIT License.
