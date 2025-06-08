@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Buttons.module.css";
 
-function Buttons({ value }) {
+function Buttons({ value, handler }) {
   const getButtonClass = () => {
     if (value === "=") {
       return `${classes.calcButtons} ${classes.equal}`;
@@ -13,7 +13,11 @@ function Buttons({ value }) {
     return classes.calcButtons;
   };
 
-  return <button className={getButtonClass()}>{value}</button>;
+  return (
+    <button className={getButtonClass()} onClick={() => handler(value)}>
+      {value}
+    </button>
+  );
 }
 
 export default Buttons;
