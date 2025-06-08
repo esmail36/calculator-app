@@ -6,7 +6,6 @@ This is a simple and responsive calculator web app built using **React.js**. It 
 
 - Basic math operations: `+`, `-`, `×`, `÷`
 - Clean and minimal UI
-- Responsive design for desktop and mobile
 - Built entirely with functional components and React hooks (`useState`)
 - Live result display
 
@@ -16,17 +15,15 @@ This is a simple and responsive calculator web app built using **React.js**. It 
 - CSS (or Tailwind CSS, optional)
 - JavaScript (ES6+)
 
-## 📸 Screenshots
 
-![Calculator Screenshot](./screenshot.png) <!-- Add screenshot image if available -->
 
 ## 🧑‍💻 Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-calculator.git
-cd react-calculator
+git clone https://github.com/your-username/calculator-app.git
+cd calculator-app
 ```
 
 2. Install dependencies
